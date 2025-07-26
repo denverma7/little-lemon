@@ -1,7 +1,7 @@
 export default function Nav() {
     return (
         <nav>
-            <ul className="flex flex-row items-center justify-center space-x-4">
+            <ul>
                 <li>
                     <a href="/">Home</a>
                 </li>

@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px 20px; /* Example padding */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-top: 16px;
+    margin-left: 267px;
+    width: 180px;
+    height: 49px;
+
+}
+
+nav ul {
+    /* align-self: flex-start; */
+    display: flex;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    gap: 24px;
+    margin-right: 400px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* gap: 20px; */
+    grid-row: 1;
+    background-color: #495E57;
+    height: 424px;
+    padding: 40px, 5%;
+    align-items: center;
+}
+
+main .title {
+    column-span: 1;
+    margin-left: 276px;
+    /* margin-bottom: 10px; */
+}
+
+main .title h1,
+main .title h2,
+main .title p {
+    /* margin-left: 276px; */
+    margin-bottom: 10px;
+}
+
+main .title h1 {
+    color: #F4CE14;
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: -20px;
+}
+
+main .title h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+main .title p {
+    color: white;
+    font-size: 20px;
+}
+
+main .image {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main .btn1 {
+    background-color: #F4CE14;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 4px;
+    cursor: pointer;
+}
